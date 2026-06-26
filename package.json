@@ -1,0 +1,17 @@
+{
+  "name": "acs-rag-mcp",
+  "version": "1.0.0",
+  "description": "RAG-powered Azure Communication Services REST API knowledge base MCP server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "ingest": "node ingest.js"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "openai": "^6.44.0",
+    "pg": "^8.22.0"
+  }
+}
